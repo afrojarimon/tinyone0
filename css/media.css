@@ -1,0 +1,194 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header*/
+	header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+		font-size: 20px;
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+/*banner*/
+.caro_ind [data-bs-target]{
+	width: 12px;
+	height: 12px;
+}
+.caro_left {
+    padding-top: 30px;
+    text-align: center;
+}
+.h1_com{
+	font-size: 25px;
+}
+.h2_com{
+	font-size: 18px;
+	margin: 20px 0;
+}
+.l_p {
+    padding: 0 28px;
+}
+.l_icon ul{
+	padding-left: 32px;
+}
+/*feature start*/
+.feature {
+    padding: 60px 0 70px;
+}
+.heading{
+	padding: 0 12px;
+}
+.fe_item {
+    margin-top: 80px;
+}
+/*contact start*/
+.con_form {
+    padding: 0 20px;
+   }
+.c-e {
+    padding: 0;
+}
+.c_lbl {
+    left: 30px !important;
+}
+/*social media*/
+.s_media ul li{
+	margin-right: 15px !important;
+}
+.s_media ul li a i {
+    font-size: 40px;
+}
+/*contact end*/
+/*footer start*/
+.addrs{
+	text-align: center;
+}
+.f_item {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+	/*header*/
+	header{
+		padding: 10px 0;
+	}
+	.menu ul li a{
+		font-size: 20px;
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+	/*banner*/
+    .caro_ind [data-bs-target]{
+	   width: 12px;
+	   height: 12px;
+}
+.l_icon{
+	text-align: center;
+}
+.l_icon ul li {
+    margin-right: 50px !important;
+}
+/*feature start*/
+.feature {
+    padding: 70px 0 80px;
+}
+.heading {
+    padding: 0px 50px;
+}
+.fe_item {
+    padding: 0px 20px;
+}
+/*contact start*/
+.con_form {
+    padding: 0 60px;
+   }
+.c-e {
+    padding: 0;
+}
+.c_lbl {
+    left: 100px !important;
+}
+/*social media*/
+.s_media ul li{
+	margin-right: 25px !important;
+}
+.s_media ul li a i {
+    font-size: 45px;
+}
+
+/*contact end*/
+/*footer start*/
+.addrs{
+	text-align: center;
+}
+.f_item {
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header*/
+	.menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+/*banner*/
+.caro_left {
+    padding-top: 50px;
+}
+.caro_right img{
+	width: 100%;
+}
+/*feature start*/
+.heading {
+    padding: 0 55px;
+}
+.fe_item {
+    padding: 0px 15px;
+}
+.fe_icon {
+    font-size: 30px;
+}
+.fe_content h3 {
+    font-size: 18px;
+}
+/*contact start*/
+.con_form {
+    padding: 0 45px;
+}
+/*contact end*/
+/*footer start*/
+footer {
+    padding-left: 35px;
+}
+
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.addrs{
+	padding-left: 25px;
+	}
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width:1399.98px) { 
+ }
+ 
+/*Extra Extra large devices(large desktop, 1400px and up)*/
+@media (min-width:1400px){
+
+}
